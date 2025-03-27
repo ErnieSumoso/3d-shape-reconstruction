@@ -1,0 +1,6 @@
+gdown==5.2.0
+numpy==1.23.5
+Pillow==11.0.0
+pyvista==0.44.2
+streamlit==1.14.0
+tensorflow==2.10.0
