@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/ErnieSumoso/3d-shape-reconstruction">
-    <img src="readme-files/project-icon.png" alt="Icon" width="80" height="80">
+    <img src="readme-files/project-icon.png" alt="Icon" width="400">
   </a>
 
 <h3 align="center">Deep Learning for Shape Reconstruction: Converting 2D Images into 3D Voxel Grids Using ShapeNet Data</h3>
@@ -22,9 +22,6 @@
 
 ## About The Project
 
-<div align="center">
-  <img src="readme-files/project-showcase-1.png" alt="Showcase" width="400" height="400">
-</div>
 This repository demonstrates a complete deep learning pipeline for predicting 3D voxel grids from 2D images.
 I designed and implemented a data processing pipeline to convert 48,000 3-dimensional objects from the ShapeNet Core dataset, stored as OBJ files, into voxel grids (32×32×32), structured as NumPy arrays for efficient model training.
 Then thousands of images are rendered from these 3D objects, which are then used to train CNNs, 1 for each object category.
@@ -34,9 +31,11 @@ This project covers:
 <li> Preprocessing and organizing the dataset as NumPy arrays </li> 
 <li> Training high-capacity and low-capacity CNN models </li> 
 <li> Evaluating predictions using the IoU metric and visual inspections </li> 
-<li> Hosting a small Streamlit web app (locally) to perform interactive 3D predictions </li> 
+<li> Hosting a small Streamlit web app (locally) to perform interactive 3D predictions </li>
+<br>
 <div align="center">
-  <img src="readme-files/project-showcase-2.png" alt="Showcase" width="400" height="400">
+  <img src="readme-files/project-showcase-1.png" alt="Showcase" width="400">
+  <img src="readme-files/project-showcase-2.png" alt="Showcase" width="450">
 </div>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
