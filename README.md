@@ -4,11 +4,11 @@
 <br />
 <div align="center">
   <a href="https://github.com/ErnieSumoso/3d-shape-reconstruction">
-    <img src="readme-files/project-icon.png" alt="Icon" width="80" height="80">
+    <img src="readme-files/project-icon.png" alt="Icon" width="400">
   </a>
 
 <h3 align="center">Deep Learning for Shape Reconstruction: Converting 2D Images into 3D Voxel Grids Using ShapeNet Data</h3>
-
+<b>### Final version - no additional updates planned ###</b> <br><br>
   This tool can be used to predict 3D object shapes based on 2D images, scoped to 55 specific object categories (e.g. chairs, tables, airplanes, etc.).
   The final product, a web app, enables users to upload images, chose a CNN model for processing, and visualize the 3D predictions, with the posibility to download the results as OBJ files.
   <p align="center">
@@ -22,9 +22,6 @@
 
 ## About The Project
 
-<div align="center">
-  <img src="readme-files/project-showcase-1.png" alt="Showcase" width="400" height="400">
-</div>
 This repository demonstrates a complete deep learning pipeline for predicting 3D voxel grids from 2D images.
 I designed and implemented a data processing pipeline to convert 48,000 3-dimensional objects from the ShapeNet Core dataset, stored as OBJ files, into voxel grids (32×32×32), structured as NumPy arrays for efficient model training.
 Then thousands of images are rendered from these 3D objects, which are then used to train CNNs, 1 for each object category.
@@ -34,9 +31,10 @@ This project covers:
 <li> Preprocessing and organizing the dataset as NumPy arrays </li> 
 <li> Training high-capacity and low-capacity CNN models </li> 
 <li> Evaluating predictions using the IoU metric and visual inspections </li> 
-<li> Hosting a small Streamlit web app (locally) to perform interactive 3D predictions </li> 
+<li> Hosting a small Streamlit web app (locally) to perform interactive 3D predictions </li>
+<br>
 <div align="center">
-  <img src="readme-files/project-showcase-2.png" alt="Showcase" width="400" height="400">
+  <img src="readme-files/project-showcase-1.png" alt="Showcase" width="400">
 </div>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,6 +109,10 @@ More details about the development:
 <li> Evaluated model performance using Intersection Over Union (IoU) metric to measure the accuracy of predicted voxels, alongside visual comparisons (quant. and qual. assessments) on unseen data. </li> 
 <li> Engineered 11 low-capacity CNN models for categories with less data, using techniques like node dropouts and L2 regularization to prevent overfitting. </li> 
 <li> Developed a simple web application using Streamlit (front-end), PyVista (3D visualizations), and Google Drive (model file hosting). </li> 
+<br>
+<div align="center">
+  <img src="readme-files/project-showcase-2.png" alt="Showcase" width="450">
+</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
