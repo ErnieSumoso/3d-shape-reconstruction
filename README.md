@@ -119,7 +119,7 @@ More details about the development:
 
 ## Roadmap
 
-- [✓] Host models on Google Driver for user download.
+- [✓] Host models on Google Drive for user download (not available anymore).
 - [✓] Complete the development of the web app interface using Streamlit.
 - [✓] Update the README file and final project update.
 
