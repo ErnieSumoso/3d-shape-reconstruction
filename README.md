@@ -10,7 +10,7 @@
 <h3 align="center">Deep Learning for Shape Reconstruction: Converting 2D Images into 3D Voxel Grids Using ShapeNet Data</h3>
 <b>### Final version - no additional updates planned ###</b> <br><br>
   This tool can be used to predict 3D object shapes based on 2D images, scoped to 55 specific object categories (e.g. chairs, tables, airplanes, etc.).
-  The final product, a web app, enables users to upload images, chose a CNN model for processing, and visualize the 3D predictions, with the posibility to download the results as OBJ files.
+  The final product, a web app, enables users to upload images, chose a CNN model for processing, and visualize the 3D predictions, with the possibility to download the results as OBJ files.
   <p align="center">
     <br />
     <a href="https://github.com/ErnieSumoso/3d-shape-reconstruction/pulls">Pull Requests</a>
