@@ -26,7 +26,7 @@ This repository demonstrates a complete deep learning pipeline for predicting 3D
 I designed and implemented a data processing pipeline to convert 48,000 3-dimensional objects from the ShapeNet Core dataset, stored as OBJ files, into voxel grids (32×32×32), structured as NumPy arrays for efficient model training.
 Then thousands of images are rendered from these 3D objects, which are then used to train CNNs, 1 for each object category.
 This project covers:
-<li> Converting 3D models from ShapeNet (OBJ format) to voxel grids </li> 
+<li> Converting 3D models from ShapeNet (OBJ format) into voxel grids </li> 
 <li> Rendering images using the Stanford ShapeNet Renderer and Blender </li> 
 <li> Preprocessing and organizing the dataset as NumPy arrays </li> 
 <li> Training high-capacity and low-capacity CNN models </li> 
